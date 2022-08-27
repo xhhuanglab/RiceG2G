@@ -10,9 +10,3 @@ You can download the source code and the Demo data here:
 ```
 git clone https://github.com/xhhuanglab/RiceG2G
 ```
-### Data preparation
-The input file of "RiceG2G" is GWAS sites file output of FarmCPU. Or you can organize your GWAS file into test file format.
-
-
-
-The potential impacts of the variants on gene function were quantificationally evaluated for the use in RiceG2G. The intolerance score of indels and SVs in coding regions was based on whether the variant caused frameshift or was located in protein motifs (Lu et al. 2020 Nucleic Acids Res), e.g., setting the score as 25 for frameshift indels. The intolerance score of nonsynonymous SNPs was based on their conservation level, e.g., setting the score as 20 when SIFT=0 (Vaser et al 2016 Nature Protoc). The intolerance score of variants in noncoding regions was based on gene structure (whether located in exon-intron junction, UTR or core promoter regions) and chromatin accessibility (profiled from ATACseq datasets). For example, indels that disrupted exon-intron splicing were scored as 10, and SVs located in chromatin accessibility regions were scored as 5. 
