@@ -10,7 +10,7 @@ You can download the source code and the Demo data here:
 ```
 git clone https://github.com/xhhuanglab/RiceG2G
 ```
-- The test data takes the HZ_Awn_length as an example
+- The test data takes the HZ_Awn_length as an example - 
 
 
 ### Data preparation
