@@ -10,12 +10,7 @@ You can download the source code and the Demo data here:
 ```
 git clone https://github.com/xhhuanglab/RiceG2G
 ```
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-```
+[aaa](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
 The test data takes the HZ_Awn_length as an example
 
 
