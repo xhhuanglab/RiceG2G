@@ -26,7 +26,7 @@ https://figshare.com/articles/dataset/RiceG2G_Basicdata1/21115783
 **repressed_geno.list**：H3K27me3-related regions in panicle, root, mature leaf and seedling were downloaded from the RiceENCODE website.  
 **Homolog function:** "Basic_Information_Arabidopsis_to_rice.txt", "Basic_Information_Arabidopsis_to_rice_rap.txt", "RAP-MSU_2021-11-11.txt".  
 **Expression pattern:** "combineRAPvsMSU_RNAseq.txt".  
-######Input data preparation
+#### Input data preparation
 ```
 cd /RiceG2G
 ```
@@ -46,7 +46,7 @@ perl ./expand/WinQTLcart_lod_geno.pl HZ_Awn_length
 perl ./expand/Select_Winqtlcart_Peak.pl HZ_Awn_length
 ```
 
-######Start RiceG2G
+#### Start RiceG2G
  Collected annotated type , expression pattern in vast spatio-temporal tissues, functional studies of homologs in other plants, variant interpretation, linkage mapping signal in each family and variant-signal correlations among families. 
 ```
 perl ./code/select_FarmCPUpeak_info_RAP.pl HZ_Awn_length young_panicle
