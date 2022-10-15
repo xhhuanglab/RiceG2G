@@ -10,9 +10,9 @@ You can download the source code and the Demo data here:
 ```
 git clone https://github.com/xhhuanglab/RiceG2G
 ```
-```diff
-The test data takes the HZ_Awn_length as an example.
-```
+[The test data takes the HZ_Awn_length as an example](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
+
+
 ### Data preparation
 ######<font color=#008000>Basic data preparation</font>
 **Variant interpretation:** We have prepared all variants found within the NAM population, which need to be downloaded from figshare and called at the  path "/RiceG2G/basic_data" before running.  
